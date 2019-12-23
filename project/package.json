@@ -1,0 +1,23 @@
+{
+  "name": "BarnoService",
+  "version": "1.0.0",
+  "description": "Webservice to support Exgadetsa services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppalazzi/exgadetsa-webservice.git"
+  },
+  "author": "ppalazzi,dgonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppalazzi/exgadetsa-webservice/issues"
+  },
+  "homepage": "https://github.com/ppalazzi/exgadetsa-webservice#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mssql": "^6.0.1"
+  }
+}
