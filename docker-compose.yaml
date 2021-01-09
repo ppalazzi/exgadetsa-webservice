@@ -1,0 +1,22 @@
+version: '3.2'
+
+services:
+  mongodb:
+    container_name: mongodb
+    image: 'bitnami/mongodb:latest'
+    ports:
+      - 27017:27017
+    environment:
+    - MONGODB_USERNAME=secret
+    - MONGODB_PASSWORD=secret
+    - MONGODB_DATABASE=exgadet
+
+  sql-server-db:
+    container_name: sql-server-db
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+      - "1433:1433"
+    environment:
+    - ACCEPT_EULA=Y
+    - SA_PASSWORD=Password123!!
+    - MSSQL_PID=Developer    

@@ -1,0 +1,51 @@
+{
+    "name": "exgadet-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "nodem": "nodemon server.js",
+        "start": "env NODE_ENV=production forever start server.js",
+        "test": "mocha ./test/test-runner.js --reporter mochawesome --reporter-options reportDir=./test/report,reportFilename=results,quiet=true",
+        "basic-test": "mocha --reporter list ./test/test-unit/*Test.js"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^6.8.0",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.19.1",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "mocha": "^7.0.0",
+        "mochawesome": "^4.1.0",
+        "node-fetch": "^2.6.0",
+        "nodemon": "^1.19.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/dagonzalez/exgadet/src/master/"
+    },
+    "author": "Damian Gonzalez / Pablo Palazzi",
+    "license": "ISC",
+    "dependencies": {
+        "better-opn": "^1.0.0",
+        "body-parser": "^1.19.0",
+        "config": "^3.2.4",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "helmet": "^3.21.2",
+        "log4js": "^6.1.0",
+        "logdna": "^3.4.0",
+        "mongojs": "^3.1.0",
+        "mssql": "^6.0.1",
+        "opn": "^6.0.0",
+        "pushy": "^2.0.9"
+    },
+    "engines": {
+        "node": "10.12.0",
+        "npm": "6.4.1"
+    }
+}

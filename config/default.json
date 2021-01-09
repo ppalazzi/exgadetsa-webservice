@@ -1,0 +1,40 @@
+{
+    "dbConfig": {
+        "mongo": {
+            "host": "localhost",
+            "user": "secret",
+            "password": "secret",
+            "dbName": "exgadet"
+        },
+        "sqlServer": {
+            "host": "172.17.0.2",
+            "user": "sa",
+            "password": "*",
+            "database": "Bace_CRC"
+        },
+        "sqlServerExga": {
+            "host": "172.17.0.2",
+            "user": "sa",
+            "password": "*",
+            "database": "Base_EXGADET"
+        }
+    },
+	"mongoTestData": {
+        "recreate": false,
+        "delete": false
+    },
+
+    "status": {
+        "OK": 200,
+        "BAD_REQUEST": 400,
+        "UNAUTHORIZED": 401,
+        "TOKEN_FORBIDDEN": 403,
+        "NOT_FOUND": 404,
+        "METHOD_NOT_ALLOWED": 405,
+        "INTERNAL_SERVER_ERROR": 500
+    },
+
+    "constantes": {
+        "EMPTY": ""
+    }
+}

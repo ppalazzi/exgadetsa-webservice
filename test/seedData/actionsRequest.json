@@ -1,0 +1,9 @@
+{
+    "_id": 1000,
+    "descripcion": "action group",
+    "list": [
+        "Abrir",
+        "Cerrar",
+        "Colocar Membrana"
+    ]
+}

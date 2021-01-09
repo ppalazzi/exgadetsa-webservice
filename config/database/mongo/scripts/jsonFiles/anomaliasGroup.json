@@ -1,0 +1,40 @@
+[
+    {
+        "_id": 1,
+        "descripcion": "No realizado",
+        "list": [
+            "No Existe Domicilio",
+            "Ausente",
+            "No permite / Se niega",
+            "No se verifico por reja",
+            "Barrio Carenciado",
+            "No Coincide Medidor"
+        ]
+    },
+    {
+        "_id": 2,
+        "descripcion": "Sin Anomalias",
+        "list": [
+            "Medidor Funciona Correctamente",
+            "Medidos Funciona Casa Desocupada",
+            "Casa Desocupada",
+            "No Hay Ilicito Cte Sin Medidor",
+            "No hay Ilicito Cte Con Medidor",
+            "Sin Anomalias Llave Cerrada No Usa Gas"
+        ]
+    },
+    {
+        "_id": 3,
+        "descripcion": "Adulteracion",
+        "list": [
+            "Acceso A Bun - Precinto Cortado",
+            "Acceso A Num - Precinto No Original",
+            "Acceso A Num - Orificio En Contador",
+            "Engranaje Limitado",
+            "Camara Perforada",
+            "Falta Contador",
+            "Otra Adulteracion",
+            "Tomas Invertidas"
+        ]
+    }
+]

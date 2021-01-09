@@ -1,0 +1,11 @@
+{
+    "_id": 1,
+    "descripcion": "No realizado",
+    "list": [
+        "No existe Domicilio",
+        "Ausente",
+        "No permite / Se niega",
+        "No se verifico por reja",
+        "Barrio Carenciado"
+    ]
+}

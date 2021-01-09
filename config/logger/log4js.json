@@ -1,0 +1,19 @@
+{
+  "appenders": {
+    "out": { "type": "console"},
+    "http": {
+      "type": "dateFile",
+      "filename": "logs/api-server.log",
+      "pattern": ".yyyy-MM-dd",
+      "keepFileExt": true,
+      "alwaysIncludePattern": true,
+      "maxLogSize": 20971520
+    }
+  },
+  "categories": {
+    "default": { "appenders": [ "out", "http" ], "level": "all" },
+    "http": { "appenders": [ "http" ], "level": "info" }
+  }
+}
+
+
